@@ -6,7 +6,7 @@ namespace PalindromeExercise
         public bool IsPalindrome(string orginalWord)
         {
             string reversedWord = String.Empty;
-            for (int i = orginalWord.Length - 1; i >= 0; i++)
+            for (int i = orginalWord.Length - 1; i >= 0; i--)
             {
                 reversedWord += orginalWord[i];
 
